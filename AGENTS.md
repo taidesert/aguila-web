@@ -30,3 +30,4 @@ This is a proof-of-concept landing page for Águila Integration Systems, a Sierr
 - Never invent a preview URL or claim a deploy succeeded before verifying it. If Netlify is not connected or a deploy is pending/failed, state that clearly and diagnose the specific prerequisite.
 - Netlify is authorized for review copies only. Do not connect a custom domain, change DNS, modify Hostinger, merge PRs, or buy a paid service without explicit authorization.
 - Treat previews as public unless verified otherwise. Keep secrets and private material out of the publish directory.
+- The owner-provided main-branch review site is https://aguilaintegrationsystems.netlify.app/. Unmerged changes must be reviewed using their own verified Deploy Preview URL, not this main-branch address.

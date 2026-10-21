@@ -2,6 +2,10 @@
 
 Use Netlify Deploy Previews so a reviewer can open the actual website in a browser without downloading files or visiting GitHub. Netlify hosts a separate review copy; Hostinger and production DNS are unchanged.
 
+## Review site
+
+The owner-provided main-branch review address is https://aguilaintegrationsystems.netlify.app/. This is separate from Hostinger production. Pull request previews have their own addresses; obtain them from a successful Netlify deployment rather than treating the main-branch address as a preview of unmerged changes.
+
 ## One-time setup by the account owner
 
 1. Sign in at https://app.netlify.com/ and choose **Add new project** (or **Add new site**), then **Import an existing project**.
