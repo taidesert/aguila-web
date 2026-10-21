@@ -2,7 +2,11 @@
 
 A responsive static website proof of concept. There is no backend, build process, dependency installation, analytics, or external asset request.
 
-## Preview
+## Clickable previews for reviewers
+
+Use Netlify Deploy Previews for a clickable website link on each pull request, with no GitHub or downloads required for visual review. See [one-time setup and the editing workflow](docs/preview-setup.md). The account owner must connect Netlify to this repository before automatic previews work. Hostinger remains separate.
+
+## Local preview
 
 From this folder, run:
 
@@ -14,7 +18,7 @@ Open `http://localhost:8000` in your own browser. Stop the server with Ctrl+C. Y
 
 ## Make changes through Codex
 
-Ask Codex to create a feature branch, make the requested changes, preview and test them, and open a pull request targeting `main`. Review the files and screenshots before manually merging. See `AGENTS.md` for project guidelines.
+Ask Codex to create a feature branch, make the requested changes, preview and test them, and open a pull request targeting `main`. Ask Codex for the Netlify Deploy Preview link, review the running site, and manually merge only when satisfied. See `AGENTS.md` for project guidelines.
 
 ## Files
 

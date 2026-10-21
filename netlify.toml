@@ -1,0 +1,4 @@
+# Preview hosting only. Hostinger and production DNS remain unchanged.
+# This is a static site: no framework, dependency installation, or build command.
+[build]
+  publish = "."
