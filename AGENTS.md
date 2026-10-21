@@ -1,0 +1,25 @@
+# Águila Integration Systems website
+
+## Project and audience
+This is a proof-of-concept landing page for Águila Integration Systems, a Sierra Leone-based technology consultancy specializing in business process automation, systems integration, Zoho implementation, and AI-powered business solutions. It is intended to be maintained through conversational instructions to Codex by a non-developer colleague.
+
+## Technical stack
+- Plain UTF-8 HTML, CSS, and minimal browser JavaScript.
+- No frameworks, package manager, build tools, backend, database, or external fonts.
+- `index.html` contains the content and inline decorative SVG; `styles.css` contains the responsive design; `script.js` enhances keyboard navigation.
+- Hosting target: Hostinger standard static web hosting. No deployment is authorized by default.
+
+## Branding and content
+- Always spell the full company name **Águila Integration Systems**, preserving the accented Á. Save all text as UTF-8.
+- Use a professional, clear, approachable tone. Navy, ivory, muted green, and amber form the palette, defined in CSS variables.
+- Subtle eagle geometry, connections, precision, and forward movement guide the design. The SVG is a concept mark, not an approved final logo.
+- Never invent testimonials, customers, contact details, certifications, or credentials. Keep missing details explicitly labelled as placeholders.
+- Preserve semantic HTML, visible keyboard focus, reduced-motion support, sufficient contrast, and mobile layouts.
+
+## Workflow and validation
+- Use the existing isolated checkout. Do not create worktrees unless explicitly requested.
+- Always create a feature branch and submit changes via a pull request targeting `main`. Never commit application changes directly to `main`, merge a PR, publish, or modify production without explicit authorization.
+- Keep changes small and explain them in plain language.
+- Preview from the repository with `python3 -m http.server 8000 --bind 0.0.0.0`. Stop with Ctrl+C.
+- Check desktop and mobile sizes, internal links, keyboard navigation, missing assets, and browser console errors. No build step is required.
+- The contact section deliberately has no working form or invented email. Add real contact details only when supplied by the owner.
