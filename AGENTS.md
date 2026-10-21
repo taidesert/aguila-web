@@ -1,7 +1,7 @@
 # Águila Integration Systems website
 
 ## Project and audience
-This is a proof-of-concept landing page for Águila Integration Systems, a Sierra Leone-based technology consultancy specializing in business process automation, systems integration, Zoho implementation, and AI-powered business solutions. It is intended to be maintained through conversational instructions to Codex by a non-developer colleague.
+This is a proof-of-concept landing page for Águila Integration Systems, a Sierra Leone-based technology consultancy specializing in business process automation, systems integration, ERP implementation, and AI-powered business solutions. It is intended to be maintained through conversational instructions to Codex by a non-developer colleague.
 
 ## Technical stack
 - Plain UTF-8 HTML, CSS, and minimal browser JavaScript.
