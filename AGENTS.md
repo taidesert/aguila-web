@@ -1,7 +1,7 @@
-# Águila Integration Systems website
+# Águila Integrated Systems website
 
 ## Project and audience
-This is a proof-of-concept landing page for Águila Integration Systems, a Sierra Leone-based technology consultancy specializing in business process automation, systems integration, ERP implementation, and AI-powered business solutions. It is intended to be maintained through conversational instructions to Codex by a non-developer colleague.
+This is a proof-of-concept landing page for Águila Integrated Systems, a Sierra Leone-based technology consultancy specializing in business process automation, systems integration, ERP implementation, and AI-powered business solutions. It is intended to be maintained through conversational instructions to Codex by a non-developer colleague.
 
 ## Technical stack
 - Plain UTF-8 HTML, CSS, and minimal browser JavaScript.
@@ -10,7 +10,7 @@ This is a proof-of-concept landing page for Águila Integration Systems, a Sierr
 - Hosting target: Hostinger standard static web hosting. No deployment is authorized by default.
 
 ## Branding and content
-- Always spell the full company name **Águila Integration Systems**, preserving the accented Á. Save all text as UTF-8.
+- Always spell the full company name **Águila Integrated Systems**, preserving the accented Á. Save all text as UTF-8.
 - Use a professional, clear, approachable tone. Navy, ivory, muted green, and amber form the palette, defined in CSS variables.
 - Subtle eagle geometry, connections, precision, and forward movement guide the design. The SVG is a concept mark, not an approved final logo.
 - Never invent testimonials, customers, contact details, certifications, or credentials. Keep missing details explicitly labelled as placeholders.
