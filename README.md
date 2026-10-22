@@ -1,4 +1,4 @@
-# Águila Integration Systems
+# Águila Integrated Systems
 
 A responsive static website proof of concept. There is no backend, build process, dependency installation, analytics, or external asset request.
 
