@@ -23,3 +23,11 @@ This is a proof-of-concept landing page for Águila Integration Systems, a Sierr
 - Preview from the repository with `python3 -m http.server 8000 --bind 0.0.0.0`. Stop with Ctrl+C.
 - Check desktop and mobile sizes, internal links, keyboard navigation, missing assets, and browser console errors. No build step is required.
 - The contact section deliberately has no working form or invented email. Add real contact details only when supplied by the owner.
+
+## Hosted review previews
+- Use Netlify Deploy Previews for browser-based review once the owner has connected the GitHub repository. See `docs/preview-setup.md`; `netlify.toml` specifies the static publish directory with no build command.
+- After opening or updating a PR, check the Netlify deployment status for its latest commit. Validate the actual hosted URL at desktop and mobile widths, including navigation, assets, and console errors. Give the reviewer the direct working preview URL in chat. Do not substitute a GitHub file link or screenshot when a hosted preview is available.
+- Never invent a preview URL or claim a deploy succeeded before verifying it. If Netlify is not connected or a deploy is pending/failed, state that clearly and diagnose the specific prerequisite.
+- Netlify is authorized for review copies only. Do not connect a custom domain, change DNS, modify Hostinger, merge PRs, or buy a paid service without explicit authorization.
+- Treat previews as public unless verified otherwise. Keep secrets and private material out of the publish directory.
+- The owner-provided main-branch review site is https://aguilaintegrationsystems.netlify.app/. Unmerged changes must be reviewed using their own verified Deploy Preview URL, not this main-branch address.
